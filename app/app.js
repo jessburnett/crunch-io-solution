@@ -8,6 +8,5 @@ angular.module('kataSolution', [
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
-
   $routeProvider.otherwise({redirectTo: '/kata'});
 }]);

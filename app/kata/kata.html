@@ -1,1 +1,7 @@
-<p>This is the partial for View Kata.</p>
+<div ng-controller="KataCtrl">
+  <ul>
+    <li ng-repeat="order in order">
+      {{order.element}} - <em>{{order.self}}</em>
+    </li>
+  </ul>
+</div>
